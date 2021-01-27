@@ -5,7 +5,6 @@ x = [[3, 2, 3], [2, 0, 2], [3, 0, 1], [3, 1, 0]]
 y.sort(key=lambda e: (e[1], e[2]))
 print(y)
 
-
 # for i in range(1, len(x)):
 #     j = i
 #     while j > 0:
