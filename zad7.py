@@ -1,4 +1,3 @@
-# Nie da się wywołać tej funkcji bez błędu, ponieważ argument *others jest przed age
 def person_print(name, last_name, *others, age):
     formatted_data = 'Imię: {}, nazwisko: {}, wiek: {}'.format(name, last_name, age)
     others_str = ' '
@@ -7,6 +6,7 @@ def person_print(name, last_name, *others, age):
     print(formatted_data + others_str)
 
 
+person_print("Seweryn", "Żygas", "Kraków", age=21 )
 # własna funkcja
 
 def f(*args, **kwargs):
