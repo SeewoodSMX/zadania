@@ -7,7 +7,7 @@ def person_print(name, last_name, *others, age):
 
 
 person_print("Seweryn", "Żygas", "Kraków", age=21 )
-# własna funkcja
+
 
 def f(*args, **kwargs):
     for index, val in kwargs.items():
