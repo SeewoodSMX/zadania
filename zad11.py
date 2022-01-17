@@ -20,4 +20,4 @@ if __name__ == "__main__":
     rotatefile(count, file_size, file_name)
     print(os.stat('new_file.txt').st_size)
     print(os.stat('new_file1.txt').st_size)
-    print(os.stat('new_file2.txt').st_size)
+    print(os.stat('new_file2.txt').t_size)
